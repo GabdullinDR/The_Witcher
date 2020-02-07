@@ -325,6 +325,7 @@ body{
 		background-color: #fff;
 		border: none;
 		cursor: pointer;
+		z-index: 1;
 	}
 
 	.menu-button:before{
@@ -355,6 +356,7 @@ body{
 
 	.menu-button-active{
 		height: 0;
+
 	}
 
 	.menu-button-active:before{
@@ -376,6 +378,7 @@ body{
 		background-color: #9D2929;
 		width: 250px;
 		padding-bottom: 40px;
+		z-index: 1;
 	}
 
 	.header-active{
